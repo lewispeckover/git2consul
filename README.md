@@ -77,7 +77,7 @@ Once you are happy with your configuration, you can run git2consul as a daemon e
 
 #### Configuration
 
-git2consul expects to be run on the same node as a Consul agent.  git2consul expects its own configuration to be stored as a JSON object in '/git2consul/config' in your Consul KV.  The utility `utils/config_seeder.js` will take a JSON file and set `/git2consul/config` to contain its contents.
+git2consul expects to be run on the same node as a Consul agent.  git2consul expects its own configuration to be stored as a JSON object in '/etc/git2consul.json'.
 
 ##### Configuration Format
 
